@@ -22,3 +22,12 @@ solve(x^2 + 3 >= 12)
 disp('Solucion a la inecuacion numero 3 "Incecuacion con un valor absoluto"');
 abs(x) < 5
 solve(abs(x) < 5)
+
+
+hold on 
+plot ([-20 5], [0,0],'K+-', "linewidth", 3, "markersize", 12)
+plot ([0,0], [-20 30], 'K-', "linewidth",3)
+
+x = -20:0.01:11;
+y = x + 2;
+plot(x,y,"linewidth",2)
